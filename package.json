@@ -92,22 +92,22 @@
   "author": "Ewout Stortenbeker <me@appy.one> (http://appy.one)",
   "license": "MIT",
   "dependencies": {
-    "acebase-core": "^1.27.5",
-    "unidecode": "^0.1.8"
+    "acebase-core": "workspace:*",
+    "unidecode": "^1.1.0"
   },
   "devDependencies": {
-    "@types/jasmine": "^3.7.4",
-    "@types/node": "^18.16.3",
-    "@types/ws": "^8.2.2",
-    "@typescript-eslint/eslint-plugin": "^5.30.6",
-    "@typescript-eslint/parser": "^5.30.6",
+    "@types/jasmine": "^5.1.4",
+    "@types/node": "^20.14.11",
+    "@types/ws": "^8.5.11",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
     "browserify": "^17.0.0",
-    "eslint": "^8.20.0",
-    "eslint-plugin-jasmine": "^4.1.3",
-    "jasmine": "^3.7.0",
-    "terser": "^5.15.0",
-    "tsc-esm-fix": "^2.20.5",
-    "typescript": "^5.0.4"
+    "eslint": "^9.7.0",
+    "eslint-plugin-jasmine": "^4.2.0",
+    "jasmine": "^5.2.0",
+    "terser": "^5.31.3",
+    "tsc-esm-fix": "^3.0.1",
+    "typescript": "^5.5.3"
   },
   "funding": [
     {
