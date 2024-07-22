@@ -1,20 +1,21 @@
 {
-    "compilerOptions": {
-        "lib": ["esnext","dom"],
-        "listEmittedFiles": false,
-        "noImplicitAny": true,
-        "sourceMap": true,
-        "module": "es2020",
-        "rootDir": "./src",
-        "outDir": "./dist/esm",
-        "moduleResolution": "node",
-        "target": "es2020",
-        "pretty": true,
-        "declaration": true,
-        "declarationMap": true,
-        "declarationDir": "./dist/types",
-        "resolveJsonModule": true,
-        "skipLibCheck": false
-    },
-    "include": ["./src/**/*.ts"]
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "listEmittedFiles": false,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "es2020",
+    "rootDir": "./src",
+    "outDir": "./dist/esm",
+    "moduleResolution": "node",
+    "target": "es2020",
+    "pretty": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./dist/types",
+    "resolveJsonModule": true,
+    "skipLibCheck": false
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules", "./dist", "**/*.spec.ts"]
 }
