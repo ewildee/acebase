@@ -120,17 +120,6 @@ export class Uint8ArrayBuilder {
         }
         return this.append(bytes);
     }
-    static writeUint32(positiveNumber:number, target?:Uint8Array, index?: number) {
-        if (target) {
-            new DataView(target).setUint32(index, positiveNumber, false);
-        }
-        else {
-            const bytes = new Uint8Array(4);
-            const view = new DataView(bytes);
-            view.setUint32(index, positiveNumber);
-            return bytes;
-        }
-    }
     reserve(length: number) {
         const freeBytes = this._data.byteLength - this._length;
         if (freeBytes < length) {
